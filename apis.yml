@@ -1,8 +1,26 @@
 aid: saks-off-5th
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saks-off-5th.png
 name: Saks OFF 5TH
-description: 'Saks OFF 5TH is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Saks OFF 5TH is an American off-price retailer of designer and luxury
+  fashion, footwear, accessories, and home goods, historically operated as the discount
+  banner of Saks Fifth Avenue and later folded into Saks Global (Hudson''s Bay Company /
+  HBC). It sold marked-down designer merchandise through outlet stores and an e-commerce
+  site at saksoff5th.com. As of this enrichment pass the public website resolves to a
+  shutdown notice with only a store-locations link, and the company publishes no developer
+  portal, API documentation, SDKs, or machine-readable API surface. It was surfaced to
+  the API Evangelist network as a portfolio-lead stub of Insight Partners in the consumer
+  sector.'
 url: https://raw.githubusercontent.com/api-evangelist/saks-off-5th/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Retail
+- Fashion
+- E-commerce
+- Off-Price
+- Luxury
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/saks-off-5th-domain-security.yml
 - type: Website
   url: https://www.saksoff5th.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
